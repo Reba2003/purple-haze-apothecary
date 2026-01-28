@@ -1,73 +1,48 @@
-# Welcome to your Lovable project
+Purple Haze | Premium Apothecary
+Purple Haze is a premium e-commerce application featuring a unique Minecraft-inspired aesthetic. Built for a seamless shopping experience, it combines retro pixel-art visuals with a robust modern tech stack.
 
-## Project info
+Key Features
+Aesthetic & Design: Forest green color palette with Press Start 2P pixelated typography.
 
-**URL**: https://lovable.dev/projects/REPLACE_WITH_PROJECT_ID
+Age Verification: Integrated 18+ modal with background blurring for regulatory compliance.
 
-## How can I edit this code?
+Custom Navigation: Hover-expanding sidebar (Home, Products, Cart) and dynamic header.
 
-There are several ways of editing your application.
+Product Grid: Specialized herbal categories (Sativa, Indica, Specialty Greens) priced in ZAR.
 
-**Use Lovable**
+Cart System: Persistent shopping cart using local storage.
 
-Simply visit the [Lovable Project](https://lovable.dev/projects/REPLACE_WITH_PROJECT_ID) and start prompting.
+Checkout: Flow optimized for South African payment gateways (Paystack-ready).
 
-Changes made via Lovable will be committed automatically to this repo.
+Security: Supabase Row Level Security (RLS) for secure user data and order tracking.
 
-**Use your preferred IDE**
+Tech Stack
+Frontend: Vite, React, TypeScript
 
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
+Styling: Tailwind CSS, shadcn/ui
 
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
+Backend/Database: Supabase
 
-Follow these steps:
+Icons: Lucide React
 
-```sh
-# Step 1: Clone the repository using the project's Git URL.
-git clone <YOUR_GIT_URL>
+Local Development
+To get the project running on your local machine, follow these steps:
 
-# Step 2: Navigate to the project directory.
-cd <YOUR_PROJECT_NAME>
+Bash
+# Clone the repository
+git clone https://github.com/Reba2003/purple-haze-apothecary.git
 
-# Step 3: Install the necessary dependencies.
-npm i
+# Navigate to the project directory
+cd purple-haze-apothecary
 
-# Step 4: Start the development server with auto-reloading and an instant preview.
+# Install dependencies
+npm install
+
+# Start the development server
 npm run dev
-```
+📂 Project Structure
+/src: Contains the React components, hooks, and pages.
 
-**Edit a file directly in GitHub**
+/public: Static assets including pixel-art logos and favicons.
 
-- Navigate to the desired file(s).
-- Click the "Edit" button (pencil icon) at the top right of the file view.
-- Make your changes and commit the changes.
-
-**Use GitHub Codespaces**
-
-- Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
-- Select the "Codespaces" tab.
-- Click on "New codespace" to launch a new Codespace environment.
-- Edit files directly within the Codespace and commit and push your changes once you're done.
-
-## What technologies are used for this project?
-
-This project is built with:
-
-- Vite
-- TypeScript
-- React
-- shadcn-ui
-- Tailwind CSS
-
-## How can I deploy this project?
-
-Simply open [Lovable](https://lovable.dev/projects/REPLACE_WITH_PROJECT_ID) and click on Share -> Publish.
-
-## Can I connect a custom domain to my Lovable project?
-
-Yes, you can!
-
-To connect a domain, navigate to Project > Settings > Domains and click Connect Domain.
-
-Read more here: [Setting up a custom domain](https://docs.lovable.dev/features/custom-domain#custom-domain)
+/supabase: Database schemas and RLS policy configurations.
